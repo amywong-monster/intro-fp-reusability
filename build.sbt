@@ -15,6 +15,7 @@ libraryDependencies += "org.typelevel" %% "cats-core"        % "2.2.0"
 
 addCompilerPlugin("org.typelevel" %% "kind-projector"     % "0.10.3")
 addCompilerPlugin("com.olegpy"    %% "better-monadic-for" % "0.3.1")
+addCompilerPlugin("org.augustjune" %% "context-applied" % "0.1.2")
 
 scalacOptions ++= Seq(
   "-deprecation",
